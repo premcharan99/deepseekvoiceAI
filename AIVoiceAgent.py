@@ -11,7 +11,7 @@ class AIVoiceAgent:
     def __init__(self):
         # Set ElevenLabs API Key
         self.client = ElevenLabs(
-            api_key="sk_23162e1c986e0462ed494bf11483e0d3cebd96a1d279600f"
+            api_key="your API"
         )
 
         # Initialize Vosk model
